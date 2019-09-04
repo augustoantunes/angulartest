@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DatabindComponent } from './databind/databind.component';
+import { HeaderComponent } from './header/header.component';
+import { PropetibyndComponent } from './propetibynd/propetibynd.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DatabindComponent,
+    HeaderComponent,
+    PropetibyndComponent
   ],
   imports: [
     BrowserModule,
